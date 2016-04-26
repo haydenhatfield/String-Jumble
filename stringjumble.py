@@ -29,5 +29,9 @@ s = input("Please enter a string of text ")
 
 print(s[::-1])
 
+
 s = s.split(' ')
-print(s[::-1])
+srev = s[::-1]
+
+for x in srev[::-1]:
+    print(x, end=" ")
