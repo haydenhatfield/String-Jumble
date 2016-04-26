@@ -31,7 +31,6 @@ print(s[::-1])
 
 
 s = s.split(' ')
-srev = s[::-1]
 
-for x in srev[::-1]:
+for x in s[::-1]:
     print(x, end=" ")
