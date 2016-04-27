@@ -37,5 +37,4 @@ for x in s[::-1]:
     
 print("")    
 for x in s[::1]:
-    
     print(x[::-1])
