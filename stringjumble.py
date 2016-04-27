@@ -34,6 +34,8 @@ s = s.split(' ')
 
 for x in s[::-1]:
     print(x, end=" ")
+    
 print("")    
 for x in s[::1]:
-    print(x, end=" ")
+    
+    print(x[::-1])
